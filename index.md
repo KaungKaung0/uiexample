@@ -31,7 +31,6 @@
                 </div>
             </div>
         </nav>
-        
         <header class="bg-white shadow">
             <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between">
                 <a href="index.html" class="hover:bg-red-700 w-full text-center">
@@ -72,7 +71,6 @@
                 <a href="course.html" class="lg:hidden w-full text-center p-5 underline text-md ">View Course</a> 
             </div>
           </a>
-          
           <!-- Course Card -->
           <a href="course.html">
             <div class="shadow-lg flex flex-col  mb-12">
@@ -89,6 +87,5 @@
             </div>
         </main>
     </div>
-    
 </body>
 </html>
