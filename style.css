@@ -2,6 +2,7 @@
     background-color: #023047;
 }
 .bg-home-image {
+    z-index: 0;
     position: relative;
     overflow: hidden;
 }
