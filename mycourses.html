@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Course</title>
+</head>
+<body>
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <div>
+        <nav class="bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0">
+                            <img class="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
+                        </div>
+                        <h3 class="text-md lg:text-lg p-4 text-white font-bold">YES Education</h3>
+                    </div>
+                    <div>
+                        <div class="ml-4 flex items-center md:ml-6">
+                            <a href="register.html" class="p-3  rounded text-center text-white hover:text-white hover:bg-black focus:outline-none focus:ring-1   focus:ring-offset-2 focus:ring-offset-black focus:ring-white">
+                                Create Account
+                            </a>
+                            <a href="login.html" class="p-3  rounded text-center text-white hover:text-white hover:shadow hover:bg-black focus:outline-none focus:ring-1   focus:ring-offset-2 focus:ring-offset-black focus:ring-white">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <header class="bg-white shadow">
+            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between">
+                <a href="index.html" class="hover:bg-red-700 w-full text-center">
+                    <h1 class="text-3xl font-bold leading-tight text-gray-900 hover:text-white">
+                        All Courses
+                    </h1>
+                </a>
+                <a href="mycourses.html" class="hover:bg-red-700 w-full text-center">
+                    <h1 class="text-3xl font-bold leading-tight text-gray-900 hover:text-white">
+                        My Courses
+                    </h1>
+                </a>
+            </div>
+        </header>
+        <main>
+            <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 sm:flex">
+                <!-- Replace with your content -->
+                <div class="flex flex-col lg:w-64 shadow p-3 shadow-md bg-gray-800 text-white">
+                    <h1 class="font-bold">Basic English Grammar</h1>
+                    <ul class="list-inside list-disc leading-relaxed mt-5">
+                        <li><a href="mycourse.html" class="mt-5 underline">Lesson One</a></li>
+                        <li><a href="mycourse.html" class="mt-5 underline">Lesson Two</a></li> 
+                        <li><a href="mycourse.html" class="mt-5 underline">Lesson Three</a></li>
+                    </ul>
+                </div>
+                <a href="course.html">
+                    <div class="shadow-md flex flex-col mb-12">
+                     <div class="flex justify-center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0S1jb8Up1hI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                        <div class="flex justify-between">
+                            <h3 class="text-lg font-bold p-6">Exam</h3>
+                            <p class="font-bold p-6">Time: 30 min</p>
+                        </div>
+                        <p class="p-6 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem tempore veritatis itaque dignissimos provident, reprehenderit in architecto. Officiis iure quos sapiente non id aut qui laboriosam quas necessitatibus quia?</p>
+                        <a href="mycourses.html" class="mx-auto group relative w-48 flex justify-center py-2 shadow border border-transparent text-sm font-medium rounded-md text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                            <span class=" inset-y-0 flex items-center pl-3">
+                             <span class="p-4">   Next Lesson</span>
+                                <!-- Heroicon name: user-add -->
+                              <svg class="h-5 w-5 text-indigo-800 group-hover:text-indigo-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
+                              </svg>
+                            </span>
+                          </a>
+                    </div>
+                </a>
+                <!-- /End replace -->
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
